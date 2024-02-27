@@ -4,7 +4,7 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя ˹𝐌ᴏʜɪᴛ˼ яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,7 +32,7 @@ async def start(_, msg):
      
             [
              InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/BWANDARLOK"),
-             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/jarvis2O"),
+             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Mohitkumar076"),
              ],
      
              [
@@ -68,7 +68,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+        photo="https://telegra.ph/file/2e7b72279b28105607667.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
