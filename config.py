@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","@Mohitkumar076")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Mohitkumar076")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "@MOHIT_X_MUSIC_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MOHIT_MUSIC_RoBOT")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "˹𝐌ᴏʜɪᴛ˼ ✘ ˹𝐌ᴜsɪᴄ˼")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "musicXannie")
+ASSUSERNAME = getenv("ASSUSERNAME" , "MohitAssistantBot")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -26,7 +26,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002034922180))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002088475500))
 
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
@@ -41,7 +41,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/JARVISWORKER/ANNIE-X-MUSIC-MOHIT",
+    "https://github.com/JARVISHUBPUBLIC/ANNIE-X-MUSIC-MOHIT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
